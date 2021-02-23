@@ -1,0 +1,24 @@
+object FormMain: TFormMain
+  Left = 543
+  Height = 319
+  Top = 260
+  Width = 345
+  Caption = 'FormMain'
+  ClientHeight = 319
+  ClientWidth = 345
+  LCLVersion = '2.0.10.0'
+  object PaintBox: TPaintBox
+    Left = 0
+    Height = 319
+    Top = 0
+    Width = 345
+    Align = alClient
+    OnPaint = PaintBoxPaint
+  end
+  object Timer: TTimer
+    Interval = 33
+    OnTimer = TimerTimer
+    Left = 56
+    Top = 48
+  end
+end
